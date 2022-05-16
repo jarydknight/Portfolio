@@ -78,7 +78,7 @@ header ul {
 header nav ul li a {
     padding: 10px 15px;
 
-    font-size: 1.55vw;
+    font-size: 2vw;
 
     color: var(--text-color-1);
 }
@@ -181,7 +181,7 @@ footer {
 
     flex-wrap: wrap;
 
-    justify-content:flex-start;
+    justify-content:space-between;
 
     padding: 36px;
 }
@@ -191,7 +191,7 @@ footer {
 
     height: 300px;
 
-    margin: 2%;
+    margin: 3%;
 }
 
 .project img {
