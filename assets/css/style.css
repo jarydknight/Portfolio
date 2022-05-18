@@ -31,8 +31,6 @@ section {
 
 a {
     text-decoration: none;
-
-    color: var(--text-color-1);
 }
 
 /*  || SITEWIDE STYLES */
@@ -230,11 +228,9 @@ footer {
 
     align-items: center;
 
-    overflow: hidden;
-
-    /* width: 40.5%;
-
-    height: 300px; */
+    overflow: visible;
+    
+    /* height: 300px; */
 
     width: 40.5%;
 
@@ -245,16 +241,16 @@ footer {
     margin: 3%;
 }
 
-.project :hover {
-    border: 5px solid var(--quatenary-color);
+.project img {
+    object-fit: cover;
+
+    object-position: top;
 }
 
-.project img {
-    /* min-width: 100%;
+.project a :hover {
+    border: 5px solid var(--quatenary-color);
 
-    min-height: 100%; */
-
-    object-fit: cover;
+    overflow: hidden;
 }
 
 /*  Contact Section Styles */
@@ -267,6 +263,12 @@ footer {
 
 .contact-section ul {
     list-style: none;
+}
+
+/* || UTILITIES */
+
+.center-image img {
+    object-fit: fill;
 }
 
 /* || MEDIA QUERIES */
