@@ -57,7 +57,7 @@ header {
     top: 0;
 }
 
-header a {
+header nav a {
     font-size: 1.55vw;
 
     color: var(--text-color-1);
@@ -75,16 +75,20 @@ header ul {
     list-style: none;
 }
 
+header nav {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
 header nav ul li a {
     padding: 10px 15px;
 
     font-size: 2vw;
 
     color: var(--text-color-1);
-}
-
-header .home a{
-    font-size: 2vw;
 }
 
 
@@ -94,16 +98,24 @@ header .home a{
     justify-content: center;
 
     align-items: center;
+
+    width: 100px;
+
+    height: 100px;
+
+    margin: 0 auto 0 0;
     
-    width: 45px;
+    /* padding: 5px; */
+}
 
-    height: 45px;
-    
-    padding: 5px;
+.home a img {
+    object-fit: cover;
 
-    border: 5px solid var(--text-color-1);
+    max-width: 200px;
 
-    align-items: center;
+    max-height: 200px;
+
+    overflow: visible;
 }
 
 footer {
@@ -355,7 +367,7 @@ footer {
     }
 
     header .home {
-        margin: 0 45%;
+        margin: 0 auto;
     }
     
     .project {
@@ -364,5 +376,11 @@ footer {
 
     .projects :first-child {
         height: 150px;
+    }
+
+    .profile-pic img {
+        width: 250px;
+        
+        height: 250px;
     }
 }
