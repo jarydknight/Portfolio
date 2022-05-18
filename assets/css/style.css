@@ -31,6 +31,8 @@ section {
 
 a {
     text-decoration: none;
+
+    color: var(--text-color-1);
 }
 
 /*  || SITEWIDE STYLES */
@@ -53,6 +55,8 @@ header {
     position: sticky;
 
     top: 0;
+
+    z-index: 9999;
 }
 
 header nav a {
@@ -222,17 +226,21 @@ footer {
 }
 
 .project {
-    display: flex;
+    /* display: flex;
+
+    flex-wrap: wrap;
 
     justify-content: center;
 
-    align-items: center;
+    align-items: center; */
+
+    position: relative;
 
     overflow: visible;
-    
-    /* height: 300px; */
 
     width: 40.5%;
+
+    height: 300px;
 
     max-height: auto;
 
@@ -245,12 +253,32 @@ footer {
     object-fit: cover;
 
     object-position: top;
+
+    display: block;
 }
 
 .project a :hover {
     border: 5px solid var(--quatenary-color);
 
     overflow: hidden;
+}
+
+.project-title {
+    position: absolute;
+
+    bottom: 0;
+
+    background: var(--quatenary-color);
+
+    width: 78%;
+
+    opacity:1;
+
+    color: var(--text-color-1);
+
+    font-size: 25px;
+    
+    text-align: left;
 }
 
 /*  Contact Section Styles */
@@ -373,7 +401,7 @@ footer {
     }
     
     .project {
-        height: 60%;
+        height: 150px;
     }
 
     .projects :first-child {
