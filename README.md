@@ -30,6 +30,6 @@ To run this project clone the repository and open in your prefered code editor. 
 
 ## Webpage Demo
 
-Link to webpage: [**Jaryd Knight Portfolio**]()
+Link to webpage: [**Jaryd Knight Portfolio**](https://jarydknight.github.io/Portfolio/)
 
-![screenshot of webpage]()
+![screenshot of webpage](./assets/images/jarydknight.github.io_Portfolio_.png)
