@@ -110,6 +110,20 @@ header nav ul li a {
     /* padding: 5px; */
 }
 
+.home a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    max-height: 100%;
+
+    max-width: 100%;
+}
+
 .home a img {
     object-fit: cover;
 
