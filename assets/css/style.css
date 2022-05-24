@@ -48,7 +48,7 @@ header {
 
     flex-wrap: wrap;
 
-    padding: 40px;
+    padding: 0 40px;
 
     position: -webkit-sticky;
 
@@ -108,6 +108,20 @@ header nav ul li a {
     margin: 0 auto 0 0;
     
     /* padding: 5px; */
+}
+
+.home a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    max-height: 100%;
+
+    max-width: 100%;
 }
 
 .home a img {
@@ -200,7 +214,9 @@ footer {
 
     width: 90%;
 
-    margin: auto;
+    margin: 2% auto;
+
+    padding: 0;
 }
 
 .project-section h2 {
@@ -226,27 +242,20 @@ footer {
 }
 
 .project {
-    /* display: flex;
-
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    align-items: center; */
 
     position: relative;
 
     overflow: visible;
 
-    width: 40.5%;
+    width: 47%;
 
     height: 300px;
 
     max-height: auto;
 
-    aspect-ratio: 4/3;
+    margin: 2% 0;
 
-    margin: 3%;
+    padding: 0;
 }
 
 .project img {
@@ -360,12 +369,8 @@ footer {
         padding: 60px 10px;
     }
 
-    .project-section {
-        padding:60px 10px;
-    }
-
     .project {
-        width: 94%;
+        width: 100%;
 
         height: 300px;
     }
